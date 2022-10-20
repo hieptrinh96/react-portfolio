@@ -5,7 +5,7 @@ function NavBar() {
       <Link
         to='/'
       >
-        Your Name
+        Mike Trinh
       </Link>
 
       <ul>
@@ -22,6 +22,13 @@ function NavBar() {
             to='/contact'
           >
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+            to='/resume'
+          >
+            Resume
           </Link>
         </li>
       </ul>

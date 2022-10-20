@@ -1,7 +1,11 @@
+import profilePic from '../assets/profile-pic.jpeg'
 const Home = () => {
   return (
     <>
-      <h2>Home Page</h2>
+      <h1>Mike Trinh</h1>
+      <h2>Software Developer</h2>
+      <img src={profilePic} alt="" />
+      <h4>I enjoy creating applications to solve problems </h4>
     </>
   );
 }
