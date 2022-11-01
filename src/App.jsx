@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 import NavBar from './components/NavBar'
 import './App.css';
 import Resume from './pages/Resume';
-
+import Projects from './pages/Projects';
 function App() {
   return (
     <>
@@ -27,6 +27,9 @@ function App() {
           path='/resume'
           element={<Resume />}
         />
+        <Route
+          path='/projects'
+          element={<Projects />} />
       </Routes>
     </>
   );
