@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import './App.css';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
+import ProjectDetails from './pages/ProjectDetails';
 function App() {
   return (
     <>
@@ -30,6 +31,9 @@ function App() {
         <Route
           path='/projects'
           element={<Projects />} />
+        <Route
+          path='/projects:projectDetails'
+          element={<ProjectDetails />} />
       </Routes>
     </>
   );
