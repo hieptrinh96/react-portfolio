@@ -1,7 +1,3 @@
-const hyphenWord = str => {
+export function hyphenWord(str) {
   return str.replace(' ', '').toLowerCase()
-}
-
-export {
-  hyphenWord
 }
