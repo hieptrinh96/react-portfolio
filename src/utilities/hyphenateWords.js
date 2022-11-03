@@ -1,3 +1,4 @@
-export function hyphenWord(str) {
-  return str.replace(' ', '').toLowerCase()
+function hyphenWord(str) {
+  return str.replace(' ', '-').toLowerCase()
 }
+export default hyphenWord

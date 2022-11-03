@@ -1,10 +1,6 @@
 import { projects } from "../data/project"
-import { hyphenWord } from "./hyphenateWords"
+import hyphenWord from "./hyphenateWords"
 
 function findProject(str) {
-  const filteredTitle = projects.filter(project => {
-    return
-  })
+  return projects.find(project => hyphenWord(project.title) === str)
 }
-
-console.log(hyphenWord())
