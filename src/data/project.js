@@ -7,7 +7,7 @@ export const projects = [
     deploymentLink: 'https://mike-trinh-connect-four.netlify.app/'
   },
   {
-    title: 'Oddjobs',
+    title: 'Odd jobs',
     description: 'Oddjobs is an app that helps people find short-term work around them. It was built with the goal of anyone being able to use it.',
     image: '/oddJobs.png',
     repoLink: 'https://github.com/hieptrinh96/Oddjobs.git',
