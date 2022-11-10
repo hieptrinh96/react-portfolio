@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import About from './pages/About';
+import About from './pages/About/About';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import NavBar from './components/NavBar'
+import NavBar from './components/Navbar/NavBar'
 import './App.css';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';

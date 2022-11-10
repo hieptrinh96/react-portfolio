@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+.home-link {
+  margin-top: 16px;
+  padding-left: 10px;
+}
