@@ -2,18 +2,35 @@ li {
   list-style: none;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 .link-container {
   display: flex;
   justify-content: space-between;
+  background-color: #012C5A;
 }
 
-ul {
+.ul-container {
   display: flex;
   padding-right: 10px;
-  gap: 10px;
+  gap: 20px;
+  background-color: #012C5A;
+  margin-right: 10px;
+}
+
+a {
+  color: #FFF7D6;
+  font-weight: bold;
+  background-color: #012C5A;
+  font-size: 1.2em;
 }
 
 .home-link {
   margin-top: 16px;
   padding-left: 10px;
+  background-color: #012C5A;
 }

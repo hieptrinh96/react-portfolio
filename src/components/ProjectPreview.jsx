@@ -2,7 +2,6 @@ import hyphenWord from "../utilities/hyphenateWords";
 import { Link } from "react-router-dom";
 
 const ProjectPreview = (props) => {
-  // const { projectDetailId } = useParams()
   const urlPath = hyphenWord(props.projectTitle)
   return (
     <>

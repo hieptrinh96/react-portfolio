@@ -1,19 +1,37 @@
 .info-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
+  align-items: center;
   gap: 80px;
+  height: 100vh;
+  background-color: #737687;
+}
+
+.info-container>img {
+  border: 5px solid #FFF7D6;
 }
 
 h3,
 p {
   margin: 0;
+  text-align: center;
 }
 
 .description {
-  width: 30%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: larger;
+  color: #FFF7D6;
+
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.description>p {
+  font-size: 1.5em;
 }
