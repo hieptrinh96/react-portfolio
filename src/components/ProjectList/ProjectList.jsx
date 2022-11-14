@@ -1,16 +1,17 @@
-import ProjectPreview from './ProjectPreview/ProjectPreview'
+import ProjectPreview from '../ProjectPreview/ProjectPreview'
+import './ProjectList.css'
 const ProjectList = (props) => {
   return (
-    <>
+    <div className="project-container">
       {props.projects.map(project =>
-        <ul key={project.title}>
+        <div key={project.title}>
           <ProjectPreview
             projectTitle={project.title}
             projectImage={project.image}
           />
-        </ul>
+        </div>
       )}
-    </>
+    </div>
   );
 }
 
