@@ -6,7 +6,7 @@ import NavBar from './components/Navbar/NavBar'
 import './App.css';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
-import ProjectDetails from './pages/ProjectDetails';
+import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 
 function App() {
   return (

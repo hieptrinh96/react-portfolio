@@ -1,0 +1,14 @@
+.project-info>h1 {
+  margin-top: 70px;
+}
+
+.project-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-info>p {
+  width: 40%;
+}
