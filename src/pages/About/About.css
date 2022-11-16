@@ -30,12 +30,11 @@ p {
   justify-content: center;
   font-size: larger;
   color: #FFF7D6;
-
 }
 
-h3 {
+.description>h3 {
   font-size: 2em;
-
+  color: #FFF7D6;
 }
 
 .description>p {

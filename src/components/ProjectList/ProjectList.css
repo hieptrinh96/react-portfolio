@@ -4,9 +4,12 @@
   align-items: center;
   background-color: none;
   margin-top: 50px;
-
 }
 
 h3 {
   color: black;
+}
+
+body {
+  background-color: #737687;
 }
