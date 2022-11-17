@@ -10,19 +10,20 @@
 }
 
 .project-info>p {
-  width: 40%;
+  width: 50%;
   font-weight: bold;
 }
 
-.button-container {
+/* .button-container {
   background-color: #A6ABBD;
-}
+} */
 
 .button-container>button>a {
   background-color: none;
 }
 
 .project-info>img {
-  max-width: 600px;
+  max-width: 750px;
   height: 400px;
+  margin-bottom: 20px;
 }
