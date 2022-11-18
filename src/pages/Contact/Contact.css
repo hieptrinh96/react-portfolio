@@ -14,5 +14,11 @@
 
 .contact-container {
   font-weight: bold;
-  font-size: larger;
+  font-size: 20px;
+}
+
+.icon-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 85px;
 }
