@@ -14,12 +14,20 @@
   font-weight: bold;
 }
 
-/* .button-container {
-  background-color: #A6ABBD;
-} */
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container>button {
+  background-color: #737687;
+  border: 1px solid black;
+
+}
 
 .button-container>button>a {
-  background-color: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .project-info>img {
