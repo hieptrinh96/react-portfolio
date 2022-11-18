@@ -1,14 +1,16 @@
-
+import './Resume.css'
 const Resume = () => {
   return (
-    <div>
+    <div className='resume-container'>
       <embed
         type="application/pdf"
         src="/HiepTrinh.pdf"
         height="500%"
         width="100%"
       />
-      <a href="/HiepTrinh.pdf" download>Download</a>
+      <button className='a-container'>
+        <a href="/HiepTrinh.pdf" download>Download</a>
+      </button>
     </div>
   );
 }

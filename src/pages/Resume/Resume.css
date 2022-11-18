@@ -1,0 +1,23 @@
+embed {
+  padding-top: 10px;
+  height: 90vh;
+}
+
+.a-container {
+  background-color: #737687;
+  border: 1px solid black;
+
+}
+
+.a-container>a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
