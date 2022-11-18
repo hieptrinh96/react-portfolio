@@ -1,17 +1,17 @@
 import './Contact.css'
+import secondPic from '../../assets/second-pic.jpeg'
+import linkedInIcon from '../../assets/linkedInIcon.png'
+import githubIcon from '../../assets/github.png'
+import gmailIcon from '../../assets/gmail.png'
 const Contact = () => {
   return (
-    <>
-      <div className="contact-container">
-        <h2>Contact</h2>
-        <p>Please feel free to contact me!</p>
-        <ul>
-          <li><a href="linkedin.com/in/hieptrinh">LinkedIn</a></li>
-          <li><a href="https://github.com/hieptrinh96">Github</a></li>
-          <li><a href="mailto: xmikecolx@gmail.com">Email</a></li>
-        </ul>
-      </div>
-    </>
+    <div className="contact-container">
+      <img src={secondPic} alt="" />
+      <p>Please feel free to contact me!</p>
+      <a href="https://www.linkedin.com/in/hieptrinh/" target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt="" /></a>
+      <a href="https://github.com/hieptrinh96" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="" /></a>
+      <a href="mailto: xmikecolx@gmail.com" target="_blank" rel="noopener noreferrer"><img src={gmailIcon} alt="" /></a>
+    </div>
   );
 }
 

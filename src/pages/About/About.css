@@ -10,8 +10,9 @@
 
 .info-container>img {
   border: 5px solid #FFF7D6;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 450px;
+  margin-top: 20px;
 }
 
 h3,
