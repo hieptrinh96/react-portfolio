@@ -1,16 +1,18 @@
-import profilePic from '../../assets/profile-pic.jpeg'
 import './Home.css'
+import Contact from '../Contact/Contact'
+import Projects from '../Projects';
 const Home = () => {
   return (
-    <>
-      <div className='info-container'>
-        <img src={profilePic} alt="" />
-        <div className="description">
-          <h3>Hi, I'm Mike.</h3>
-          <p>One of the main reasons why I want to be a software engineer is to create applications that can solve problems.</p>
+      <div className='page-container'>
+          <h3>Hi,</h3>
+          <h3>I'm Mike.</h3>
+        <div className="project-container">
+          <Projects />
+        </div>
+        <div className="contact-container">
+          <Contact />
         </div>
       </div>
-    </>
   );
 }
 
