@@ -5,7 +5,7 @@ import githubIcon from '../../assets/github.png'
 import gmailIcon from '../../assets/gmail.png'
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <section className="contact-container">
       <img src={secondPic} alt="" />
       <p>Please feel free to contact me!</p>
       <div className="icon-container">
@@ -13,7 +13,7 @@ const Contact = () => {
         <a href="https://github.com/hieptrinh96" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="" /></a>
         <a href="mailto: xmikecolx@gmail.com" target="_blank" rel="noopener noreferrer"><img src={gmailIcon} alt="" /></a>
       </div>
-    </div>
+    </section>
   );
 }
 

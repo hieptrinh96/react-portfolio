@@ -4,7 +4,6 @@ import './NavBar.css'
 function NavBar() {
   return (
     <nav>
-      <div className="link-container">
         <div className="home-link">
           <Link
             to='/'
@@ -36,7 +35,6 @@ function NavBar() {
             </Link>
           </li>
         </ul>
-      </div>
     </nav>
   )
 }
