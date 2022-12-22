@@ -9,12 +9,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: fit-content;
-}
-
-.contact-container {
   font-weight: bold;
   font-size: 20px;
+  height: 100vh;
 }
 
 .icon-container {

@@ -1,0 +1,12 @@
+.background-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-container> h3 {
+  padding-bottom: 210px;
+  font-size: 2em;
+}
