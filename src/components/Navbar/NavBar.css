@@ -11,8 +11,6 @@ li {
 }
 
 .ul-container {
-  /* gap: 20px; */
-  border-right: 1px solid lightgrey;
   padding: 0;
   height: 100%;
   display: flex;
@@ -26,8 +24,7 @@ li {
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5em;
-  border-top: 1px solid lightgrey;
-  border-bottom: 1px solid lightgrey;
+  
 }
 
 .home-link {
@@ -38,5 +35,5 @@ li {
   text-decoration: none;
   color: #FFF7D6;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
