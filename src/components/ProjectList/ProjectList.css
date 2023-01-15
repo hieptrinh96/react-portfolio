@@ -1,8 +1,10 @@
 .project-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   background-color: none;
+  gap: 20px;
+  height: 100vh;
 }
 
 .project {
