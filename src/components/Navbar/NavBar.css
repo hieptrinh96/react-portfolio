@@ -1,10 +1,11 @@
 nav {
   position: fixed;
-  left: 0;
+  top: 0;
   z-index: 50;
   display: flex;
-  flex-direction: column;
-  height: 100vh;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid #FFF7D6;
 }
 li {
   list-style: none;
@@ -14,12 +15,13 @@ li {
   padding: 0;
   height: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
+  gap: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .ul-container>li>a {
-  padding-right: 5px;
   color: #FFF7D6;
   font-weight: bold;
   text-decoration: none;
@@ -28,12 +30,13 @@ li {
 }
 
 .home-link {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .home-link>a {
   text-decoration: none;
   color: #FFF7D6;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }

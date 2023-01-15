@@ -4,16 +4,16 @@ import './ProjectPreview.css'
 const ProjectPreview = (props) => {
   const urlPath = hyphenWord(props.projectTitle)
   return (
+    <div className="project-container">
     <Link
       to={`/projects/${urlPath}`}
     >
-      <div className="project-container">
         <div className="image-container">
           <h3>{props.projectTitle}</h3>
           <img src={props.projectImage} alt={props.projectTitle} />
         </div>
-      </div>
     </Link>
+      </div>
   );
 }
 

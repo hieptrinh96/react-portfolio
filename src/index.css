@@ -8,6 +8,7 @@ body {
   background: url('../src/assets/purple-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 code {
