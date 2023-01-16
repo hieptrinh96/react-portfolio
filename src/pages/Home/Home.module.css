@@ -10,9 +10,10 @@
 
 h3 {
   margin: 5px;
+  color: #FFF7D6;
 }
 
 .background-container> h3:last-child {
-  padding-bottom: 140px;
+  padding-bottom: 270px;
 }
 
