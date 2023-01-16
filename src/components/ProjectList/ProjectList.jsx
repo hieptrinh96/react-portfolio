@@ -1,10 +1,10 @@
 import ProjectPreview from '../ProjectPreview/ProjectPreview'
-import './ProjectList.css'
+import styles from './ProjectList.module.css'
 const ProjectList = (props) => {
   return (
-    <div className="project-container">
+    <div className={styles["project-container"]}>
       {props.projects.map(project =>
-        <div key={project.title}>
+        <div key={project.title} className={styles['title-container']}>
           <ProjectPreview
             projectTitle={project.title}
             projectImage={project.image}
