@@ -4,14 +4,14 @@ const ProjectList = (props) => {
   return (
     <div className="project-container">
       {props.projects.map(project =>
-        <div key={project.title} className="project">
+        <div key={project.title}>
           <ProjectPreview
             projectTitle={project.title}
             projectImage={project.image}
-          />
+            />
         </div>
       )}
-    </div>
+      </div>
   );
 }
 

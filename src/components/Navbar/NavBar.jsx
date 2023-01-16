@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import './NavBar.css'
+import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
     <nav>
-        <div className="home-link">
+        <div className={styles["home-link"]}>
           <Link
             to='/'
           >
@@ -12,7 +12,7 @@ function NavBar() {
           </Link>
         </div>
 
-        <ul className="ul-container">
+        <ul className={styles["ul-container"]}>
           <li>
             <Link
               to='/contact'
