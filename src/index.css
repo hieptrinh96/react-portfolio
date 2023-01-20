@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('../src/assets/purple-background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #0D1B1E;
   box-sizing: border-box;
 }
 
