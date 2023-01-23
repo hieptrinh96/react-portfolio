@@ -9,7 +9,7 @@ const Resume = () => {
         width="100%"
       />
       <button className='a-container'>
-        <a href="/HiepTrinh.pdf" download>Download</a>
+        <a href="/MikeTrinh.pdf" download>Download</a>
       </button>
     </div>
   );
