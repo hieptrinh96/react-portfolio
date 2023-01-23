@@ -2,11 +2,9 @@
   /* display: flex;
   justify-content: flex-start;
   align-items: center; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-content: center;
-  width: fit-content;
-  background-color: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   gap: 20px;
   height: 100vh;
   margin-left: 30px;
