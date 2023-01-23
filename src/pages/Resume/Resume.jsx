@@ -4,7 +4,7 @@ const Resume = () => {
     <div className={styles['resume-container']}>
       <embed
         type="application/pdf"
-        src="/HiepTrinh.pdf"
+        src="/MikeTrinh.pdf"
         height="500%"
         width="100%"
       />
